@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/tasks/:path*",
+      "destination": "/api/tasks?path=:path*"
+    }
+  ]
+}

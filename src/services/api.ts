@@ -1,5 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
 export const api = axios.create({
-  baseURL: 'https://to-do-list-backend-eight.vercel.app',
+  baseURL: "/api/tasks",
+  headers: { "Content-Type": "application/json" },
 });

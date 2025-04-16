@@ -1,8 +1,8 @@
 {
-  "name": "to-do-list-frontend",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "things-list-frontend",
+  "version": "1.0.0",
+  "author": "Victor Ozoterio",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -20,6 +20,7 @@
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
+    "@vercel/node": "^5.1.14",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
